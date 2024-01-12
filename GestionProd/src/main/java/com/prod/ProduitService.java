@@ -31,7 +31,7 @@ public class ProduitService {
                 .orElseThrow(() -> new IllegalArgumentException("Produit non trouvé avec l'ID : " + id));
     }
 
-    // Opération UPDATE (mettre à jour un produit)
+    // Opération UPDATE
     public void mettreAJourProduit(Produit produitMaj) {
         validerUniciteProduit(produitMaj);
         validerDonneesProduit(produitMaj);
