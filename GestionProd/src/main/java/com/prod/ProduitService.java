@@ -11,7 +11,7 @@ public class ProduitService {
         this.produits = new ArrayList<>();
     }
 
-    // Opération CREATE (ajouter un produit)
+    // Opération CREATE 
     public void ajouterProduit(Produit nouveauProduit) {
         validerUniciteProduit(nouveauProduit);
         validerDonneesProduit(nouveauProduit);
