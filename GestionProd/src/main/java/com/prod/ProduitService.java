@@ -44,7 +44,7 @@ public class ProduitService {
         }
     }
 
-    // Opération DELETE (supprimer un produit par son ID)
+    // Opération DELETE
     public void supprimerProduitParId(Long id) {
         produits.removeIf(produit -> produit.getId().equals(id));
     }
