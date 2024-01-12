@@ -18,7 +18,7 @@ public class ProduitService {
         produits.add(nouveauProduit);
     }
 
-    // Opération READ (lire tous les produits)
+    // Opération READ 
     public List<Produit> obtenirTousLesProduits() {
         return new ArrayList<>(produits);
     }
